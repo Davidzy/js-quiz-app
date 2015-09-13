@@ -12,12 +12,12 @@ In this project, we were tasked with creating a basic two-question quiz, pulling
 
 *QuizUI Methods*:
 
-**QuizUI.displayNext**: Checks if quiz ```hasEnded``` to ```displayScore```, else continues to next question display.
-**QuizUI.displayQuestion**: Populates the appropriately indexed ```question``` id with the current question.
-**QuizUI.displayChoices**: Populates corresponding buttons with answer choices provided in ```app.js```.
-**QuizUI.displayScore**: Special text shown at end of quiz, including the player's ```Quiz.score```.
-**QuizUI.populateIdWithHTML**: Generic method to target a specific ID and populate its ```innerHTML```.
-**QuizUI.guessHandler**: Sets ```onclick``` trigger for selected answer for ```Quiz.guess```.
+**QuizUI.displayNext**: Checks if quiz ```hasEnded``` to ```displayScore```, else continues to next question display.<br>
+**QuizUI.displayQuestion**: Populates the appropriately indexed ```question``` id with the current question.<br>
+**QuizUI.displayChoices**: Populates corresponding buttons with answer choices provided in ```app.js```.<br>
+**QuizUI.displayScore**: Special text shown at end of quiz, including the player's ```Quiz.score```.<br>
+**QuizUI.populateIdWithHTML**: Generic method to target a specific ID and populate its ```innerHTML```.<br>
+**QuizUI.guessHandler**: Sets ```onclick``` trigger for selected answer for ```Quiz.guess```.<br>
 **displayProgress**: Populates ```progress``` ID with "Question ```x``` of ```y```" text based on current question.
 
 *Provided files*: style.css, index.html<br>
