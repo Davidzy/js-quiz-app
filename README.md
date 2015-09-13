@@ -18,7 +18,7 @@ In this project, we were tasked with creating a basic two-question quiz, pulling
 **QuizUI.displayScore**: Special text shown at end of quiz, including the player's ```Quiz.score```.<br>
 **QuizUI.populateIdWithHTML**: Generic method to target a specific ID and populate its ```innerHTML```.<br>
 **QuizUI.guessHandler**: Sets ```onclick``` trigger for selected answer for ```Quiz.guess```.<br>
-**displayProgress**: Populates ```progress``` ID with "Question ```x``` of ```y```" text based on current question.
+**QuizUI.displayProgress**: Populates ```progress``` ID with "Question ```x``` of ```y```" text based on current question.
 
 *Provided files*: style.css, index.html<br>
 *Project duration*: About 3 hours
